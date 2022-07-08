@@ -55,3 +55,6 @@ Javascript 입문 강의 & 나만의 강의 노트
 http://www.yes24.com/24/goods/42806896
 - 객체 지향 자바스크립트의 원리
 http://www.yes24.com/24/Goods/16886051?Acode=101
+
+
+## 시간 날때마다 들여다보기!!!!
