@@ -23,22 +23,6 @@ var demo = document.getElementById('demo');<br/>
 demo.innerHTML = Date();
 
 ### 두 번째 프로그램
-demo.style.color = "red"; <br/>
-demo.style.background = "black";
-
-### 세 번째 프로그램
-var demo = document.getElementById('demo');<br/>
-var size = 10;<br/>
-function big() {<br/>
-    demo.style.fontSize = size + "px";<br/>
-    size = size + 1;            <br/>
-}<br/>
-
-- 개발자 도구 - 콘솔에서 아래 명령을 실행<br/>
-var demo = document.getElementById('demo');<br/>
-demo.innerHTML = Date();
-
-### 두 번째 프로그램
 demo.style.color = "red";<br/>
 demo.style.background = "black";
 
