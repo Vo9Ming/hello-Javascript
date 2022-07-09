@@ -15,7 +15,7 @@
 
 ### +@ hello.html 내용
 
-<p>
+<!--
 <!DOCTYPE html>
 <html>
 <body>
@@ -25,7 +25,7 @@ console.log("Hello world!");
 </script>
 </body>
 </html>
-</p>
+-->
 
 - 크롬으로 실행 및 확인
 
