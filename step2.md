@@ -61,6 +61,6 @@ false; <br/>
  -  || (둘중에 하나만 참일때도 참), 
  -   ! (참 , 거짓의 반대를 나타내준다_ not의 의미) 등이 있다.
 true; <br/>
-!true; <br/>
-true && false; <br/>
-true || false; <br/>
+!true; -> false 도출 <br/>
+true && false; -> false 도출<br/>
+true || false; -> true 도출<br/>
