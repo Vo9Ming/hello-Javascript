@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>예제4-1</title>
+</head>
+<body>
+    <h2>사용자가 입력한 수들의 갯수와 합을 구하라.</h2>
+    <script>
+
+        var n = 1;
+        var sum = 0; 
+        for(var num; num !=0; n++){
+
+            num = Number(prompt("수를 입력하세요"));
+            sum += num;
+            console.log("사용자가 입력한 수의 갯수"+ n +"/"+ "그 수들의 합은 "+ sum+"입니다.");
+        } 
+        n -= 1;
+        document.write("사용자가 입력한 횟수 "+ n +"/ 그 수들의 합 "+ sum);
+
+    </script>
+</body>
+</html>
