@@ -9,16 +9,45 @@
 <body>
     <h2>1 - 10000 사이의 소수 출력하기</h2>
     <script>
-        var number = {};
-        var isPrime = true;
+        var number = {};                // number 객체 생성
+        var isPrime = true;             
+        
+        number.all = [];                // 1 - 10000 사이의 모든 수를 담는 배열 
+        number.prime = [];              // 1 - 10000 사이의 소수를 담는 배열 
+        
 
-        number.isPrime = function(number){
-            for(var i = 2; i < number; i++){
-                if( number % 2 === 0){
-                    isPrime = false;
+        
+
+        number.addAllnum = function(max){
+            for(var i = 2; i <= max; i++){
+                this.all.push(i);               // 10000까지 반복문을 돌며 숫자 하나하나를 number.all 배열에 넣어준다.
+            }
+        }
+
+        number.isPrime = function(num){         // 1 - 10000 사이의 수를 전달받아 그 전달받은 수가 소수인지 판별하는 함수
+            for(var i = 2; i < num; i++){       
+                if( num % i === 0){
+                    isPrime = false;            // 소수가 아님
+                    
+                }
+                return true;
+            }
+        }
+
+        number.addPrime = function(){           // 소수인지 판별한 후에 prime 배열에 담는 함수
+            for(var i = 0; i < this.all.length; i++){   // 모든 숫자에 접근하는 반복문 
+                var j = this.all[i];                    // number.all[i] 값을 j에 담는다.
+                if(this.isPrime(n)){                    // isPrime함수를 사용해 소수인지 판별 
+                    this.prime.push(n);                 // 소수일 경우 number.prime 배열에 담는다.
                 }
             }
         }
+
+        //.... 빼내기..
+
+
+
+
 
     </script>
 </body>
