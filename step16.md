@@ -19,6 +19,17 @@ Human.prototype.attack = function(target) { <br/>
 target.hp -= this.power; <br/>
 }; <br/><br/>
 
+===================================================================
+전에 배웠던 것과 비교해보기. <br/><br/>
+
+var Human = function(name, hp, power) { <br/>
+this.name = name; <br/>
+this.hp = hp; <br/>
+this.power = power; <br/>
+this.attack = function(target) { <br/>
+target.hp -= this.power; <br/>
+}; <br/><br/>
+
 ## 배열과 객체
 
 - 객체의 속성값이 배열이 될 수 있습니다. 배열 안에 값들이 객체가 될 수 있습니다. <br/>
