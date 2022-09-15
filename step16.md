@@ -28,6 +28,11 @@ this.hp = hp; <br/>
 this.power = power; <br/>
 this.attack = function(target) { <br/>
 target.hp -= this.power; <br/>
+}; <br/>
+this.show = function() { <br/>
+console.log("%s %d %d %d", <br/>
+this.name, this.hp, this.mp, this.power); <br/>
+}; <br/>
 }; <br/><br/>
 
 ## 배열과 객체
