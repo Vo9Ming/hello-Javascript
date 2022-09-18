@@ -15,8 +15,8 @@
 
 ## 속성(Attributes)
 
-- 객체의 속성과 비슷하게 엘리먼트도 속성을 가질 수 있습니다.
-  < a href="http://codesquad.kr" title="코드스쿼드">
+- 객체의 속성과 비슷하게 엘리먼트도 속성을 가질 수 있습니다. <br/>
+  < a href="http://codesquad.kr" title="코드스쿼드"> <br/><br/>
 
 ### 블록 엘리먼트
 
@@ -28,28 +28,28 @@
 
 ## HTML과 JS 분리하기
 
-//// dom.html
+//// dom.html <br/><br/>
 
-<!DOCTYPE html>
-<meta charset="UTF-8">
-<html>
-<title>HTML Tutorial</ttle>
-<head>
-</head>
-<body>
-<h1>This is a heading</h1>
-<h1>Another h1 heading</h1>
-<p id='main'>This is a paragraph.</p>
+< !DOCTYPE html> <br/>
+< meta charset="UTF-8"> <br/>
+< html> <br/>
+< title>HTML Tutorial< /ttle> <br/>
+< head> <br/>
+< /head> <br/>
+< body> <br/>
+< h1 >This is a heading< /h1 > <br/>
+< h1 >Another h1 heading< /h1 > <br/>
+< p id = 'main' >This is a paragraph.< /p > <br/><br/>
 
-<script src="./dom_test.js"></script>
-</body>
-</html>
+< script src="./dom_test.js">< /script> <br/>
+< /body > <br/>
+< /html > <br/>
 ================================================================
 
-//// dom_test.js
+//// dom_test.js <br/><br/>
 
-var msg = "Hello";
-alert(msg);
+var msg = "Hello"; <br/>
+alert(msg); <br/><br/>
 
 ================================================================
 
@@ -61,17 +61,17 @@ alert(msg);
 
 ## html 객체
 
-HTML 문서도 객체로 간주된다.
+HTML 문서도 객체로 간주된다. <br/>
 
 - window: 최상위 객체
-- document: dom의 최상위 객체이면서 window의 하위 객체
+- document: dom의 최상위 객체이면서 window의 하위 객체 <br/><br/>
 
-var list = document.getElementsByTagName('h1');
-list[0].innerHTML;
-list[0].innerHTML = "Hello";
+var list = document.getElementsByTagName('h1'); <br/>
+list[0].innerHTML; <br/>
+list[0].innerHTML = "Hello"; <br/><br/>
 
-var list = document.getElementById('main');
-main.innerHTML = "Hello";
+var list = document.getElementById('main'); <br/>
+main.innerHTML = "Hello"; <br/><br/>
 
 ## JS로 DOM 제어하기
 
@@ -82,10 +82,10 @@ main.innerHTML = "Hello";
 var element = document.getElementById('id')
 element.innerHTML = '값'
 
-<h2>My First Page</h2>
-<p id="test"></p>
+< h2 >My First Page< /h2 >
+< p id="test" >< /p >
 
-<script>
+< script >
 var p = document.getElementById("test");
 p.innerHTML = "Hello World!";
-</script>
+< /script >
