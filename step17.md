@@ -16,7 +16,7 @@
 ## 속성(Attributes)
 
 - 객체의 속성과 비슷하게 엘리먼트도 속성을 가질 수 있습니다.
-  <a href="http://codesquad.kr" title="코드스쿼드">
+  < a href="http://codesquad.kr" title="코드스쿼드">
 
 ### 블록 엘리먼트
 
