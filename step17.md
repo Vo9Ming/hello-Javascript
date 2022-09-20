@@ -79,13 +79,13 @@ main.innerHTML = "Hello"; <br/><br/>
 
 ### DOM 객체의 값 바꾸기
 
-var element = document.getElementById('id')
-element.innerHTML = '값'
+var element = document.getElementById('id'); <br/>
+element.innerHTML = '값'; <br/>
 
-< h2 >My First Page< /h2 >
-< p id="test" >< /p >
+< h2 >My First Page< /h2 > <br/>
+< p id="test" >< /p > <br/>
 
-< script >
-var p = document.getElementById("test");
-p.innerHTML = "Hello World!";
-< /script >
+< script > <br/>
+var p = document.getElementById("test"); <br/>
+p.innerHTML = "Hello World!"; <br/>
+< /script > <br/>
