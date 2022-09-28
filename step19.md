@@ -391,4 +391,4 @@ console.log(a); <br/><br/>
 
 클로져는 고급 주제 중 하나입니다. 관심이 있으시면 검색해서 공부해 보세요. <br/>
 초급에서는 공부 안 해도 되는 주제이지만 중급에서는 꼭 알아야 하는 것 중 하나입니다. <br/>
-참고링크 : https://developer.mozilla.org/ko/docs/Web/JavaScript/ Closures#%EC%96%B4%ED%9C%98%EC%A0%81*%EB%B2%94%EC%9C%84*%EC%A7%80%EC%A0%95lexical_scoping
+참고링크 : https://developer.mozilla.org/ko/docs/Web/JavaScriptClosures#%EC%96%B4%ED%9C%98%EC%A0%81*%EB%B2%94%EC%9C%84*%EC%A7%80%EC%A0%95lexical_scoping
