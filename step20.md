@@ -33,6 +33,7 @@
   var countdown2 = function(n) {
 
         //termination condition
+
         console.log(n);
         if (n <= 0) {
             return;
